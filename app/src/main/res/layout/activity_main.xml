@@ -6,6 +6,6 @@
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_bright"
     android:fitsSystemWindows="true"
-    tools:context=".ui.activity.GetStartedActivity">
+    tools:context=".ui.activity.MainActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
