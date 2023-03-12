@@ -13,4 +13,20 @@
         <item name="windowSplashScreenAnimationDuration">1500</item>
         <item name="postSplashScreenTheme">@style/Theme.Mova</item>
     </style>
+
+    <style name="ButtonPrimary" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="backgroundTint">@color/crimson</item>
+        <item name="android:layout_height">@dimen/_47sdp</item>
+        <item name="android:elevation">@dimen/_4sdp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/urbanist_bold</item>
+        <item name="cornerRadius">@dimen/_13sdp</item>
+    </style>
+
+    <style name="ButtonPrimary.Rounded" parent="ButtonPrimary">
+        <item name="cornerRadius">@dimen/_100sdp</item>
+    </style>
 </resources>
